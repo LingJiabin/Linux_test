@@ -1,3 +1,3 @@
 This is a new branch
-Creating a new branch is quick AND simple.
+Creating a new branch is quit and Simple.
 Hello world!!!
