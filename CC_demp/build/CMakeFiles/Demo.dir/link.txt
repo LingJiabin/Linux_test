@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Demo.dir/main.cc.o  -o Demo -Wl,-rpath,/root/CC_demp/build/lib lib/libSMIME.so -lcrypto 

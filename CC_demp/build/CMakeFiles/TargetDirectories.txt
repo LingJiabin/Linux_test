@@ -1,0 +1,6 @@
+/root/CC_demp/build/CMakeFiles/rebuild_cache.dir
+/root/CC_demp/build/CMakeFiles/Demo.dir
+/root/CC_demp/build/CMakeFiles/edit_cache.dir
+/root/CC_demp/build/lib/CMakeFiles/rebuild_cache.dir
+/root/CC_demp/build/lib/CMakeFiles/SMIME.dir
+/root/CC_demp/build/lib/CMakeFiles/edit_cache.dir
