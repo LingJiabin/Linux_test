@@ -57,10 +57,10 @@ int main(int argc, char **argv){
 	switch (opt_n)
 	{
 	case 's':
-		*Data = &i;
-		*Key = &k;
-		*Signer = &c;
-		*Out = &o;
+		Data = i;
+		Key = k;
+		Signer = c;
+		Out = o;
 		ret = P7_Sign(Data, Key, Signer, Out);
 		break;
 	case 'v':
