@@ -28,6 +28,13 @@
 */
 
 int P7_Sign(char *Data, char *Key, char *Signer, char *out){
+    
+    printf("Data: %s\t\t", Data);
+    printf("Key: %s\t\t", Key);
+    printf("Signer: %s\t\t", Signer);
+    printf("Out: %s\t\t", out);
+    
+    
 
     if(!Data||!Key||!Signer||!out){
 	    printf("input NULL\n");

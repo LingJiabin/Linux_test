@@ -14,7 +14,6 @@
 #include<openssl/pkcs7.h>
 #include<openssl/pem.h>
 #include<openssl/evp.h>
-
 /*
 #define DATA ("test")
 #define CERT ("my.pem")
@@ -58,7 +57,7 @@ int SMIME_Encrypt(char *Data, char *Signer, char *Out){
     if((SMIME_write_PKCS7(out, pk7, in, flags))==0){
         printf("write == 0 \n");
 
-        EVP_CIPHER_meth_free((EVP_CIPHER *)cipher);
+        //EVP_CIPHER_meth_free((EVP_CIPHER *)cipher);
         fclose(cert);
         fclose(data_out);
         BIO_free(in);
@@ -69,9 +68,9 @@ int SMIME_Encrypt(char *Data, char *Signer, char *Out){
         return 0;
 
     }else{
-        //printf("seccess write \n");
+        printf("seccess write \n");
         
-        EVP_CIPHER_meth_free((EVP_CIPHER *)cipher);
+        //EVP_CIPHER_meth_free((EVP_CIPHER *)cipher);
         fclose(cert);
         fclose(data_out);
         BIO_free(in);

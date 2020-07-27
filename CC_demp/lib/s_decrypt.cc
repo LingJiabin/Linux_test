@@ -15,10 +15,11 @@
 #include<openssl/pkcs7.h>
 #include<openssl/pem.h>
 
+/*
 #define DATA ("env_test")
 #define DATA_OUT ("test_out")
 #define PRIVATE_KEY ("private.key")
-
+*/
 int SMIME_Decrypt(char *En_Data, char *Key, char *Out){
 
     int flags = PKCS7_DETACHED;
@@ -37,14 +38,17 @@ int SMIME_Decrypt(char *En_Data, char *Key, char *Out){
     
 
     E_key = PEM_read_PrivateKey(key_in, NULL, NULL, NULL);
-    /*
+    
     if(E_key == NULL){
         printf("E_key==NULL \n");
+        return 0;
     }
+    /*
     if((PEM_write_bio_PrivateKey(key, E_key, NULL, NULL, NULL, NULL, NULL))==0){
         printf("E_key 0 \n");
     }
-*/  /*
+    */  
+    /*
     if((PEM_write_bio_PrivateKey(key, E_key, NULL, NULL, NULL, NULL, NULL))==0){
         printf("key 0 \n");
         return 0;
