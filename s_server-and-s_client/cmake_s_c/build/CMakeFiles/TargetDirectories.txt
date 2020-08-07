@@ -1,0 +1,6 @@
+/root/s_server-and-s_client/cmake_s_c/build/CMakeFiles/rebuild_cache.dir
+/root/s_server-and-s_client/cmake_s_c/build/CMakeFiles/edit_cache.dir
+/root/s_server-and-s_client/cmake_s_c/build/CMakeFiles/DEMO.dir
+/root/s_server-and-s_client/cmake_s_c/build/lib/CMakeFiles/rebuild_cache.dir
+/root/s_server-and-s_client/cmake_s_c/build/lib/CMakeFiles/edit_cache.dir
+/root/s_server-and-s_client/cmake_s_c/build/lib/CMakeFiles/SC.dir

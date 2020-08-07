@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSC.a  CMakeFiles/SC.dir/s_client.c.o CMakeFiles/SC.dir/s_server.c.o
+/usr/bin/ranlib libSC.a

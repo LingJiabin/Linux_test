@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/s_server-and-s_client/cmake_s_c/lib/s_client.h
+
+/root/s_server-and-s_client/cmake_s_c/lib/s_server.h
+
+/root/s_server-and-s_client/cmake_s_c/main.c
+stdio.h
+-
+stdlib.h
+-
+getopt.h
+-
+unistd.h
+-
+lib/s_server.h
+/root/s_server-and-s_client/cmake_s_c/lib/s_server.h
+lib/s_client.h
+/root/s_server-and-s_client/cmake_s_c/lib/s_client.h
+

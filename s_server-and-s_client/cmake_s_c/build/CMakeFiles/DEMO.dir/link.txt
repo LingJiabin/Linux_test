@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/DEMO.dir/main.c.o  -o DEMO -rdynamic lib/libSC.a -lcrypto -lssl -lpthread 
